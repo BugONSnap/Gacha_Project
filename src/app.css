@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Add this to ensure page content appears above the wave background */
+main, 
+.content {
+    position: relative;
+    z-index: 1;
+}
